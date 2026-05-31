@@ -1,0 +1,23 @@
+artifact_path: file:C:/Users/lenovo/Desktop/churn_prediction_xai_dashboard/notebooks/mlruns/1/models/m-73e7c1bf8fdb4775b6f5e216ac533b66/artifacts
+flavors:
+  lightgbm:
+    code: null
+    data: model.pkl
+    lgb_version: 4.6.0
+    model_class: lightgbm.sklearn.LGBMClassifier
+    serialization_format: cloudpickle
+    skops_trusted_types: null
+  python_function:
+    data: model.pkl
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.lightgbm
+    python_version: 3.13.5
+mlflow_version: 3.12.0
+model_id: m-73e7c1bf8fdb4775b6f5e216ac533b66
+model_size_bytes: 167956
+model_uuid: m-73e7c1bf8fdb4775b6f5e216ac533b66
+prompts: null
+run_id: b40c3dd9dee44a6eb91d5236c27da020
+utc_time_created: '2026-05-31 15:33:15.647554'
