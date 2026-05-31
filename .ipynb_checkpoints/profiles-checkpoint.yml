@@ -1,0 +1,13 @@
+churn_pipeline:
+  outputs:
+    dev:
+      dataset: raw_telecom
+      job_execution_timeout_seconds: 300
+      job_retries: 1
+      location: US
+      method: service-account
+      keyfile: C:\Users\Administrator\Downloads\Churn_project\key.json
+      project: telecom-churn-xai
+      threads: 1
+      type: bigquery
+  target: dev
