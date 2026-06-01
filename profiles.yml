@@ -1,0 +1,14 @@
+churn_pipeline:
+  outputs:
+    dev:
+      dataset: raw_telecom
+      job_execution_timeout_seconds: 300
+      job_retries: 1
+      location: US
+      method: oauth
+      priority: interactive
+      project: telecom-churn-xai
+      threads: 1
+      type: bigquery
+  target: dev
+  
